@@ -350,3 +350,10 @@ a{
 .demo-6 .segmenter__shadow {
 	box-shadow: 2px 20px 35px rgba(25, 23, 20, 0.75);
 }
+
+@media (max-width:789px){
+	#page_holder.open {
+	    width: 100%;
+	    position: relative;
+	}
+}
